@@ -2,15 +2,17 @@ import { Link, routes } from '@redwoodjs/router'
 import header from './Eurobodalla 2021 logo.png'
 import logo from './CountryLaborLogo.svg'
 
+{/*const header = ({ header }) => {
+return JSON.stringify(header)}*/}
 const NavBarLayout = ({ children }) => {
 
   return (
     <>
       <header>
-        <nav className="bg-green-500 shadow">
-          <div className="max-w-5xl mx-auto px-l sm:px-6 lg:px-8">
+        <nav className="bg-green-500 shadow ">
+          <div className="max-w-5xl mx-auto px-l sm:px-6 lg:px-0">
             <div className="relative flex  justify-center h-16 ">
-              <img className="object-scale-down object-left rounded-full" src= {header}alt="header">
+              <img className="object-scale-down object-left  px-0 " src= {header} alt ="header">
               </img>
 
               <div className="absolute inset-y-0 left-0 flex items-start sm:hidden">

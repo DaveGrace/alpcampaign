@@ -10,11 +10,30 @@ generator client {
   binaryTargets = "native"
 }
 
-// Define your own datamodels here and run `yarn redwood db save` to create
-// migrations for them.
-// TODO: Please remove the following example:
-model UserExample {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
+model Post {
+id Int @id @default(autoincrement())
+title String
+body String
+createdAt DateTime @default(now())
+}
+model Mem {
+  id             Int    @id @default(autoincrement())
+  email          String @unique
+  phone          Int?
+  name           String
+  street_address String
+  suburb         String
+  state          String
+  postcode       Int
+}
+
+model Org {
+  id             Int    @id @default(autoincrement())
+  email          String @unique
+  phone          Int?
+  name           String
+  street_address String
+  suburb         String
+  state          String
+  postcode       Int
 }
