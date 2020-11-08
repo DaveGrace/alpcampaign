@@ -18,7 +18,7 @@ const CandidateLayout = ({ children }) => {
               <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80 md: w-15 md: h-15 xl:w-32 xl:h-32"
                     src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>

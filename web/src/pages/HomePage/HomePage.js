@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import BlogPostsCell from 'src/components/BlogPostsCell'
-import PostsLayout from 'src/layouts/PostsLayout'
+import DaveLayout from 'src/layouts/DaveLayout'
 import NavBarLayout from 'src/layouts/NavBarLayout'
 import CandidateLayout from 'src/layouts/CandidateLayout'
 const HomePage = () => {
@@ -13,10 +13,11 @@ const HomePage = () => {
       <main>
         <CandidateLayout></CandidateLayout>
       </main>
+<div>
+      <DaveLayout>
 
-      <PostsLayout>
-        <BlogPostsCell />
-      </PostsLayout>
+      </DaveLayout>
+</div>
     </>
   )
 }
