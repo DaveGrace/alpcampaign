@@ -1,3 +1,4 @@
+import { Link, routes } from '@redwoodjs/router'
 const CandidateLayout = ({ children }) => {
   return (
     <>
@@ -17,8 +18,11 @@ const CandidateLayout = ({ children }) => {
             <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-5 lg:max-w-5xl">
               <li>
                 <div className="space-y-6">
+
+
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                    onClick = {routes.david()}
+                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80 md: w-15 md: h-15 xl:w-32 xl:h-32 "
                     src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
@@ -26,7 +30,9 @@ const CandidateLayout = ({ children }) => {
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h4>David Grace</h4>
                       <p className="text-indigo-600">Broulee</p>
+
                     </div>
+
                     <ul className="flex justify-center space-x-5">
                       <li>
                         <a

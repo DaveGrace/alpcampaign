@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import header from './Eurobodalla 2021 logo.png'
-import logo from './CountryLaborLogo.svg'
+import logo from './CountryLaborLogo2014.jpg'
 
 {/*const header = ({ header }) => {
 return JSON.stringify(header)}*/}
@@ -11,14 +11,14 @@ const NavBarLayout = ({ children }) => {
       <header>
         <nav className="bg-green-500 shadow ">
           <div className="max-w-5xl mx-auto px-l sm:px-6 lg:px-0">
-            <div className="relative flex  justify-center h-16 ">
-              <img className="object-scale-down object-left  px-0 " src= {header} alt ="header">
+            <div className="relative flex  justify-between h-16 ">
+              <img className="object-scale-down object-contain  px-0 h-full w-full " src= {header} alt ="header">
               </img>
 
               <div className="absolute inset-y-0 left-0 flex items-start sm:hidden">
                 {/*<!-- Mobile menu button -->*/}
                 <button
-                  className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  className="inline-flex items-center justify-between p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                   aria-label="Main menu"
                   aria-expanded="false"
                 >
@@ -62,7 +62,7 @@ const NavBarLayout = ({ children }) => {
                   </svg>
                 </button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex-1 flex items-center justify-between sm:items-stretch sm:justify-between">
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-8 w-auto"
@@ -220,7 +220,7 @@ const NavBarLayout = ({ children }) => {
         </nav>
       </header>
 
-      <main>{children}</main>
+      {/*<main>{children}</main>*/}
     </>
   )
 }
