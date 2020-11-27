@@ -18,18 +18,25 @@ const CandidateLayout = ({ children }) => {
             <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-5 lg:max-w-5xl">
               <li>
                 <div className="space-y-6">
+                <a
+                    href="#"
+                    //className="inline-flex items-center px-1 pt-1 border-b-2 border-indigo-500 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out"
+                  >
 
-
-                  <img
-                    onClick = {routes.david()}
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80 md: w-15 md: h-15 xl:w-32 xl:h-32 "
+                    <Link to={routes.david()}><img
+                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-32 xl:h-32 "
                     src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
-                  ></img>
+
+
+                  ></img></Link>
+                    </a>
+
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
                       <h4>David Grace</h4>
                       <p className="text-indigo-600">Broulee</p>
+
 
                     </div>
 

@@ -10,9 +10,9 @@ const NavBarLayout = ({ children }) => {
     <>
       <header>
         <nav className="bg-green-500 shadow ">
-          <div className="max-w-5xl mx-auto px-l sm:px-6 lg:px-0">
-            <div className="relative flex  justify-between h-16 ">
-              <img className="object-scale-down object-contain  px-0 h-full w-full " src= {header} alt ="header">
+          <div className="mx-auto px-l sm:px-6 lg:px-0">
+            <div className="relative flex  justify-left h-16 ">
+              <img className="object-scale-down object-contain  px-0 h-full" src= {header} alt ="header">
               </img>
 
               <div className="absolute inset-y-0 left-0 flex items-start sm:hidden">
@@ -69,11 +69,7 @@ const NavBarLayout = ({ children }) => {
                     src={logo}
                     alt="Workflow logo"
                   ></img>
-                  <img
-                    className="hidden lg:block h-8 w-auto"
-                    src={logo}
-                    alt="Workflow"
-                  ></img>
+
                 </div>
                 <div className="hidden sm:ml-6 sm:flex">
                   <a
