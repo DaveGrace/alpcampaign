@@ -1,16 +1,11 @@
-import {Link, routes} from '@redwoodjs/router'
-//import BlogPost from 'src/components/BlogPost'
-
-
 export const QUERY = gql`
-  query BlogPostsQuery {
+  query PostTileQuery {
     posts {
       id
       title
       body
       createdAt
-
-    }
+        }
   }
 `
 
@@ -21,9 +16,12 @@ export const Empty = () => <div>Empty</div>
 export const Failure = ({ error }) => <div>Error: {error.message}</div>
 
 export const Success = ({ posts }) => {
-  return posts.map((post) =>
-    <BlogPost key ={post.id} post={post} />)
-    }
+  return posts.map((post) => (
 
-
-
+    <article key={post.id}>
+    <header>
+      <h2>{post.title}</h2>
+    </header>
+    </article>
+))
+}

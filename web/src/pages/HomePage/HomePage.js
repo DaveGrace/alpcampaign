@@ -1,5 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import BlogPostsCell from 'src/components/BlogPostsCell'
+import BlogTileCell from 'src/components/BlogTileCell'
 import DaveLayout from 'src/layouts/DaveLayout'
 import NavBarLayout from 'src/layouts/NavBarLayout'
 import CandidateLayout from 'src/layouts/CandidateLayout'

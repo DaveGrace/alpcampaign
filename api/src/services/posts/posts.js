@@ -28,3 +28,4 @@ export const deletePost = ({ id }) => {
     where: { id },
   })
 }
+

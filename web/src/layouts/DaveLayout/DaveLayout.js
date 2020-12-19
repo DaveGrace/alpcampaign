@@ -1,14 +1,31 @@
+import { Link, routes } from '@redwoodjs/router'
+import PostsLayout from "../PostsLayout/PostsLayout"
+import BlogPostsCell from "src/components/BlogPostsCell"
+import BlogTileCell from "src/components/BlogTileCell"
+
+// const post = ({ posts }) => {
+//   return post.map((posts) => (
+//     <article key= {post.id}>
+//     <header>
+//       <h2>{post.title}</h2>
+//     </header>
+//     {/* <p>{post.body}</p>
+//     <div>Posted at: {post.createdAt}</div> */}
+//     </article>
+//   ))
+// }
 const DaveLayout= ({ children }) => {
   return(
   <>
   {children}
-    <div className="bg-gray-800 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+    <div className="bg-gray-500 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div className="relative max-w-lg mx-auto lg:max-w-8xl">
     <div>
+
       <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
-        What we have to say</h2>
-      <p className="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
-        Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+       </h2>
+      <p sclassName="mt-3 text-xl leading-7 text-gray-100 sm:mt-4">
+         Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
       </p>
     </div>
     <div className="mt-12 grid gap-16 border-t-2 border-gray-100 pt-12 lg:grid-cols-3 lg:gap-x-5 lg:gap-y-12">
@@ -16,16 +33,19 @@ const DaveLayout= ({ children }) => {
         <div>
           <a href="#" className="inline-block">
             <span className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800">
-              Article
+
             </span>
           </a>
         </div>
         <a href="#" className="block">
           <h3 className="mt-4 text-xl leading-7 font-semibold text-gray-900">
-            Boost your conversion rate
+
+<BlogTileCell></BlogTileCell>
+
+
           </h3>
           <p className="mt-3 text-base leading-6 text-gray-500">
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
+
           </p>
         </a>
         <div className="mt-6 flex items-center">
@@ -40,7 +60,7 @@ const DaveLayout= ({ children }) => {
                 Paul York
               </a>
             </p>
-            <div className="flex text-sm leading-5 text-gray-500">
+            <div className="flex text-sm leading-5 text-gray-100">
               <time dateTime="2020-03-16">
                 Mar 16, 2020
               </time>
@@ -66,7 +86,7 @@ const DaveLayout= ({ children }) => {
           <h3 className="mt-4 text-xl leading-7 font-semibold text-gray-900">
             How to use search engine optimization to drive sales
           </h3>
-          <p className="mt-3 text-base leading-6 text-gray-500">
+          <p className="mt-3 text-base leading-6 text-gray-100">
             Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
           </p>
         </a>
@@ -82,7 +102,7 @@ const DaveLayout= ({ children }) => {
                 Dessie Ryan
               </a>
             </p>
-            <div className="flex text-sm leading-5 text-gray-500">
+            <div className="flex text-sm leading-5 text-gray-100">
               <time dateTime="2020-03-15">
                 Mar 15, 2020
               </time>

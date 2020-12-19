@@ -4,7 +4,7 @@ const CandidateLayout = ({ children }) => {
     <>
       {children}
       {/*content section*/}
-      <div className="bg-gray-300">
+      <div className="bg-gray-400">
         <div className="max-w-screen-xl mx-auto py-2 px-2 text-center sm:px-6 lg:px-8 lg:py-12">
           <div className="space-y-10">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
@@ -18,10 +18,7 @@ const CandidateLayout = ({ children }) => {
             <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-5 lg:max-w-5xl">
               <li>
                 <div className="space-y-6">
-                <a
-                    href="#"
-                    //className="inline-flex items-center px-1 pt-1 border-b-2 border-indigo-500 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out"
-                  >
+                <a href="#"className="inline-flex items-center px-1 pt-1 border-b-2 border-indigo-500 text-sm font-medium leading-5 text-gray-900 focus:outline-none focus:border-indigo-700 transition duration-150 ease-in-out">
 
                     <Link to={routes.david()}><img
                     className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-32 xl:h-32 "
@@ -345,7 +342,7 @@ const CandidateLayout = ({ children }) => {
           </div>
         </div>
       </div>
-      )
+
     </>
   )
 }

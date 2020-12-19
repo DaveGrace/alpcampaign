@@ -12,6 +12,7 @@ import { Router, Route } from '@redwoodjs/router'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/form" page={FormPage} name="form" />
       <Route path="/david" page={DavidPage} name="david" />
       <Route path="/orgs/new" page={NewOrgPage} name="newOrg" />
       <Route path="/orgs/{id:Int}/edit" page={EditOrgPage} name="editOrg" />

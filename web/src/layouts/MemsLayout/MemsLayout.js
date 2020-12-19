@@ -1,6 +1,6 @@
 import { Link, routes } from '@redwoodjs/router'
 import { Flash } from '@redwoodjs/web'
-
+import scaffold from 'web/src/scaffold.css';
 const MemsLayout = (props) => {
   return (
     <div className="rw-scaffold">
