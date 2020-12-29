@@ -11,24 +11,31 @@
 @import "tailwindcss/utilities";
 
 /**
- * END --- TAILWIND GENERATOR EDIT
- */
+  * END --- TAILWIND GENERATOR EDIT
+  */
 
 button,
 input,
 label,
 textarea {
-    font-family: Gotham-Light, sans-serif;
-    outline: thin solid purple;
+    outline: thin solid chartreuse;
     margin-inline-end: 1rem;
     margin-bottom: 2rem;
+}
+
+h2 {
+    outline: thin solid grey;
+    background: gray-400;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    font-size: large;
+    text-align: left;
 }
 
 label {
     padding-inline: 2rem;
     display: flexbox;
-    outline: thin solid pink;
-    text-decoration-color: rgb (222, 43, 51);
+    outline: thin solid hotpink;
 }
 
 .error {
@@ -37,5 +44,5 @@ label {
 
 input.error,
 textarea.error {
-    border: 1px solid red;
+    border: 3px solid indigo;
 }

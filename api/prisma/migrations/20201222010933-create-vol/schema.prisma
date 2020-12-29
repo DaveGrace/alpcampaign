@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -41,7 +41,7 @@ model Vol {
  Title          String
  FirstName      String
  LastName       String
- MPhone         String
+ MPhone         Int?
  Email          String @unique
  Saddress       String
  Town           String

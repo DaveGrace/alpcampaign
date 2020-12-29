@@ -24,7 +24,7 @@ const DaveLayout= ({ children }) => {
 
       <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
        </h2>
-      <p sclassName="mt-3 text-xl leading-7 text-gray-100 sm:mt-4">
+      <p className="mt-3 text-xl leading-7 text-gray-100 sm:mt-4">
          Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat massa dictumst amet. Sapien tortor lacus arcu.
       </p>
     </div>
