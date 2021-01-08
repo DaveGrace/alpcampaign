@@ -1,6 +1,32 @@
-import portrait from 'src/pages/DavidPage/David.jpg'
+import portrait from 'src/pages/DavidPage/DavidPortrait.jpg'
+//   class Candidates extends React.component{
+//   constructor(props) {
+//     super(props);
+//     this.state = { Candidates: [
+//     {Name:"David",
+//      Bio: "hgfhjgfhjgfhgfhgdfhgd",
+//      Vision: "web\src\pages\DavidPage\David.jpg",
+//      Portrait: "web\src\pages\DavidPage\David.jpg"
+//   },
+//     { Name: "Maureen",
+//       Bio:'aaaaaa',
+//       Vision: 'aaaaaaaaaa',
+//       Portrait: '      '
+//     },
+//     { Name: "Matt",
+//       Bio:'bbbbbb',
+//       Vision: 'bbbbbbbb',
+//       Portrait: '      '
+//     },
+//     { Name: "Ms X",
+//       Bio:'aaaaaa',
+//       Vision: 'aaaaaaaaaa',
+//       Portrait: '      '
+//     },
+//   ]
+// }
 
-
+//   //
 const CanddescLayout = ({ children }) => {
   return(
   <>
@@ -38,7 +64,7 @@ Board member IMPACT Eurobodalla
                   </div>
                   <div className="text-lg leading-7">
                   <h4>My Vision </h4>
-                   </div> <p className="text-gray-500">
+                   </div> <h4 className="text-gray-500">
 <ul>
 
 <li>•	work with local people and other governments to  build a sustainable local economy based on emerging technology we can proudly hand down to our children and grandchildren - that includes nurturing small businesses and local industry which enhances our living environment.</li>
@@ -47,7 +73,7 @@ Board member IMPACT Eurobodalla
 <li>•	Make sure we keep our Shire as an attractive tourist destination- clean beaches; lots of forest and wilderness; thriving small businesses.</li>
 <li>•	Serve the voiceless & powerless by providing services and facilities that respect them and increase their ability to act on their own behalf.</li>
 </ul>
-                  </p></div>
+                  </h4></div>
                   <ul className="flex space-x-5">
                     <li>
                       <a href="#" className="text-gray-400 hover:text-gray-500 transition ease-in-out duration-150">
@@ -78,5 +104,6 @@ Board member IMPACT Eurobodalla
 </div>
   </>
 )}
-
+//  }
+    // }
 export default CanddescLayout
