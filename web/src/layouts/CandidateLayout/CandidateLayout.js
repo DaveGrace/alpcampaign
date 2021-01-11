@@ -191,8 +191,8 @@ const CandidateLayout = ({ children }) => {
                   ></img>
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h4>Bunja Smith</h4>
-                      <p className="text-indigo-600">Batemans Bay</p>
+                      <h4>Claire McAsh</h4>
+                      <p className="text-indigo-600">Moruya</p>
                     </div>
                     <ul className="flex justify-center space-x-5">
                       <li>

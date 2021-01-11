@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -59,7 +59,7 @@ model Vol {
  Comments       String?
 }
 
-model Cand {
+model cands {
 id          Int    @id @default(autoincrement())
 firstName  String
 lastName   String

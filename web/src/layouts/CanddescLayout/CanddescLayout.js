@@ -1,5 +1,6 @@
 import portrait from 'src/pages/DavidPage/DavidPortrait.jpg'
-//   class Candidates extends React.component{
+// import cand
+//   class Candidates extends React.Component{
 //   constructor(props) {
 //     super(props);
 //     this.state = { Candidates: [

@@ -1,21 +1,31 @@
 import { Link, routes } from '@redwoodjs/router'
+import CandidateLayout from 'src/layouts/CandidateLayout'
+import CandsCell from 'src/components/CandsCell'
+import NavBarLayout from 'src/layouts/NavBarLayout/NavBarLayout'
 
 const CandidatePage = () => {
   return (
     <>
       <header>
-        <h1>CandidatePage</h1>
-        <nav>
+
+        <NavBarLayout></NavBarLayout>
+
+        {/* <nav>
           <ul>
             <li>
-              <Link to={routes.candidate()}>Candidate</Link>`
+              <Link to={routes.candidate()}>Candidate</Link>
             </li>
           </ul>
         </nav>
       </header>
       <main>
         <Link to={routes.home()}>Return Home</Link>
-      </main>
+      </main> */}
+      <CandidateLayout>
+<CandsCell></CandsCell>
+      </CandidateLayout>
+</header>
+
     </>
   )
 }
