@@ -1,9 +1,7 @@
 import { Link, routes } from '@redwoodjs/router'
 
-import Cands from 'src/components/Cands'
-
 export const QUERY = gql`
-  query CANDS {
+  query  {
     cands {
       id
       firstName
@@ -31,6 +29,19 @@ export const Empty = () => {
   )
 }
 
-export const Success = ({ cands }) => {
-  return <Cands cands={cands} />
-}
+// export const Success = ({ cands }) => {
+//   return <Cands cands={cands} />
+// }
+
+export const Success = ({cands}) => {
+    return cands.map((cand)=>(
+      <article key={cand.id}>
+        <header>
+          <h2>{cand.firstName} {cand.lastName}</h2>
+        </header>
+        <p>{cand.vision}
+        </p>
+     </article>
+    ))
+    }
+

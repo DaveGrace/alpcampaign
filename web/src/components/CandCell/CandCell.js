@@ -21,20 +21,18 @@ export const Loading = () => <div>Loading...</div>
 export const Empty = () => <div>Cand not found</div>
 
 
-export const Success = ({ cand }) => {
-  return <Cand cand={cand} />
-}
-
 // export const Success = ({ cand }) => {
-//   return cand.map((Cand)=>(
-//     <article key={Cand.id}>
-//       <header>
-//         <h2>{Cand.firstName} {Cand.lastName}</h2>
-//       </header>
-//       <p>{Cand.vision}
-//       </p>
+//   return <Cand cand={cand} />
+// }
 
-
-//     </article>
-//   ))
-
+ export const Success = ({cands}) => {
+  return cands.map((cand)=>(
+    <article key={cand.id}>
+      <header>
+        <h2>{cand.firstName} {cand.lastName}</h2>
+      </header>
+      <p>{cand.vision}
+      </p>
+   </article>
+  ))
+  }

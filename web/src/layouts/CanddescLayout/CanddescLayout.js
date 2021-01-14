@@ -1,4 +1,5 @@
 import portrait from 'src/pages/DavidPage/DavidPortrait.jpg'
+import CandsCell from 'src/components/CandsCell'
 // import cand
 //   class Candidates extends React.Component{
 //   constructor(props) {
@@ -37,7 +38,9 @@ const CanddescLayout = ({ children }) => {
     <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
       <div className="space-y-5 sm:space-y-4">
         <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl">Meet David</h2>
-        <p className="text-xl leading-7 text-gray-500">The Shire has been my home since 1988
+        <p className="text-xl leading-7 text-gray-500">
+         {/* {cand.vision} */}
+         The Shire has been my home since 1988
 I have had many roles in the Eurobodalla Community including:
 Shire Council --  Established and  led the Community Services Division in Council -1988-1994
 Small business owner – Smiths Music Batemans Bay  2001-2006
