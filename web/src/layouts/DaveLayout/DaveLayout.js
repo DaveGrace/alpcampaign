@@ -19,7 +19,11 @@ const DaveLayout= ({ children }) => {
   <>
   {children}
     <div className="bg-gray-500 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
-  <div className="relative max-w-lg mx-auto lg:max-w-8xl">
+  <div className="relative max-w-lg mx-auto lg:max-w-8xl"></div>
+
+  <div>
+  <BlogTileCell></BlogTileCell>
+</div>
     <div>
 
       <h2 className="text-3xl leading-9 tracking-tight font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
@@ -39,10 +43,6 @@ const DaveLayout= ({ children }) => {
         </div>
         <a href="#" className="block">
           <h3 className="mt-4 text-xl leading-7 font-semibold text-gray-900">
-
-<BlogTileCell></BlogTileCell>
-
-
           </h3>
           <p className="mt-3 text-base leading-6 text-gray-500">
 
@@ -54,6 +54,7 @@ const DaveLayout= ({ children }) => {
               <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
             </a>
           </div>
+          <div>
           <div className="ml-3">
             <p className="text-sm leading-5 font-medium text-gray-900">
               <a href="#">

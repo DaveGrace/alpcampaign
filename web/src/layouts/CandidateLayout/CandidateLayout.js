@@ -16,7 +16,7 @@ const CandidateLayout = ({ children }) => {
                 For a Council that is honest, responsive to you, and inclusive
               </p>
             </div>
-            <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-5 lg:max-w-5xl">
+            <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-6 lg:max-w-5xl">
               <li>
                 <div className="space-y-6">
                 <Link to={routes.david()}>
@@ -24,7 +24,7 @@ const CandidateLayout = ({ children }) => {
 
 
                     <img
-                   className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-32 xl:h-32 "
+                   className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-30 md: h-15 xl:w-30 xl:h-30 "
                     src={david} alt="">
                     </img>
                     </a>
@@ -81,7 +81,7 @@ const CandidateLayout = ({ children }) => {
               <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-25 xl:h-25 "
                     src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
@@ -133,7 +133,7 @@ const CandidateLayout = ({ children }) => {
               <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                  className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-25 xl:h-25 "
                     src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
@@ -185,7 +185,7 @@ const CandidateLayout = ({ children }) => {
               <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                   className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-25 xl:h-25 "
                     src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
@@ -237,13 +237,13 @@ const CandidateLayout = ({ children }) => {
               <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 md: w-15 md: h-15 xl:w-32 xl:h-32"
+                    className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-25 xl:h-25 "
                     src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h4>Ms X</h4>
+                      <h4>Deirdre Russack</h4>
                       <p className="text-indigo-600">Narooma</p>
                     </div>
                     <ul className="flex justify-center space-x-5">
@@ -286,18 +286,18 @@ const CandidateLayout = ({ children }) => {
                 </div>
               </li>
 
-            {/*}  <li>
+              <li>
                 <div className="space-y-6">
                   <img
-                    className="mx-auto h-10 w-10 rounded-full hover:opacity-50 xl:w-20 xl:h-20"
+                   className="mx-auto h-20 w-20 rounded-full hover:opacity-50 focus: opacity-80  md: w-15 md: h-15 xl:w-25 xl:h-25 "
                     src="https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                     alt=""
                   ></img>
                   <div className="space-y-2">
                     <div className="text-lg leading-6 font-medium space-y-1">
-                      <h4>Emma Dorsey</h4>
+                      <h4>Jack Egan</h4>
                       <p className="text-indigo-600">
-                        Senior Front-end Developer
+                        Moruya
                       </p>
                     </div>
                     <ul className="flex justify-center space-x-5">
@@ -338,7 +338,7 @@ const CandidateLayout = ({ children }) => {
                     </ul>
                   </div>
                 </div>
-              </li>*/}
+              </li>
             </ul>
           </div>
         </div>

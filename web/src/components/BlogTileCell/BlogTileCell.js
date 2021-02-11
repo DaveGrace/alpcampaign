@@ -1,3 +1,7 @@
+import { FlashProvider } from "@redwoodjs/web"
+import {Link, routes} from '@redwoodjs/router'
+
+
 export const QUERY = gql`
   query PostTileQuery {
     posts {
@@ -20,7 +24,9 @@ export const Success = ({ posts }) => {
 
     <article key={post.id}>
     <header>
-      <h2>{post.title}</h2>
+      <h2>
+      <Link to ={routes.blogPost({id: post.id})}>{post.title}</Link>
+      </h2>
     </header>
     </article>
 ))

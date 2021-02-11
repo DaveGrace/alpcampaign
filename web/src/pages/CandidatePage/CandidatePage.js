@@ -7,23 +7,10 @@ const CandidatePage = () => {
   return (
     <>
       <header>
-
-        <NavBarLayout></NavBarLayout>
-
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to={routes.candidate()}>Candidate</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <Link to={routes.home()}>Return Home</Link>
-      </main> */}
+       <NavBarLayout></NavBarLayout>
       <CandidateLayout>
-<CandsCell></CandsCell>
-      </CandidateLayout>
+<CandsCell> </CandsCell>
+     </CandidateLayout>
 </header>
 
     </>

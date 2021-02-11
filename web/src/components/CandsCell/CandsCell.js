@@ -37,7 +37,7 @@ export const Success = ({cands}) => {
     return cands.map((cand)=>(
       <article key={cand.id}>
         <header>
-          <h2>{cand.firstName} {cand.lastName}</h2>
+          {cand.firstName} {cand.lastName}
         </header>
         <p>{cand.vision}
         </p>

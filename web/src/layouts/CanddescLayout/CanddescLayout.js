@@ -34,12 +34,14 @@ const CanddescLayout = ({ children }) => {
   <>
   {children}
     <div className="bg-white">
+
   <div className="mx-auto py-12 px-4 max-w-screen-xl sm:px-6 lg:px-8 lg:py-24">
     <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
       <div className="space-y-5 sm:space-y-4">
-        <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl">Meet David</h2>
+        <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl">{CandsCell.firstName} {CandsCell.lastName} </h2>
+
         <p className="text-xl leading-7 text-gray-500">
-         {/* {cand.vision} */}
+
          The Shire has been my home since 1988
 I have had many roles in the Eurobodalla Community including:
 Shire Council --  Established and  led the Community Services Division in Council -1988-1994
